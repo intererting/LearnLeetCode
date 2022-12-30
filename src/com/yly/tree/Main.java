@@ -26,21 +26,21 @@ public class Main {
         TreeNode treeNode1 = new TreeNode(1);
         treeNode1.left = treeNode2;
         treeNode1.right = treeNode3;
-        treeNode2.left = treeNode4;
-        treeNode2.right = treeNode5;
-        treeNode4.left = treeNode6;
-        treeNode3.right = treeNode7;
+//        treeNode2.left = treeNode4;
+//        treeNode2.right = treeNode5;
+//        treeNode4.left = treeNode6;
+//        treeNode3.right = treeNode7;
 //        First.recursion(treeNode1);
 //        First.iter(treeNode1);
 //        Middle.recursion(treeNode1);
 //        Middle.iter(treeNode1);
-//        Middle.iter2(treeNode1);
+        Middle.iter2(treeNode1);
 //        Last.recursion(treeNode1);
 //        Last.iter(treeNode1);
 //        Level.solution(treeNode1);
 
 
-        ReverseFirst.solution(treeNode1);
+//        ReverseFirst.solution(treeNode1);
 
     }
 }

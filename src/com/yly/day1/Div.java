@@ -5,6 +5,8 @@ package com.yly.day1;
  * @version 1.0
  * @date 2021/8/4 上午10:51
  * @since 1.0
+ * <p>
+ * 除法的简单实现
  */
 public class Div {
 

@@ -38,7 +38,6 @@ public class CombinationSum {
                 return;
             }
             path.addLast(candidates[i]);
-            //从i开始是为了防止重复
             dfs(candidates, target - candidates[i], i, length, path, result);
             path.removeLast();
         }
